@@ -4,6 +4,19 @@
 <head>
     <meta name="viewport" content="initial-scale=1, width=device-width">
     <style>
+
+@font-face {
+  font-family: Impacte;
+  src: url(impactreg.woff);
+}
+#heading{
+  font-family: Impacte !important;
+
+}
+.font-medium {
+    font-weight: none;
+}
+
                     .click a {
                 display: inline-block;
                 text-decoration: none;
@@ -36,7 +49,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <title style=>RMAGEDDON REGISTER</title>
+  <title >RMAGEDDON REGISTER</title>
 </head>
 
 <body style="background-color: black;overflow-x: hidden;width: 100%;height: 100%;">
@@ -44,7 +57,7 @@
   style="display: flex; flex-direction: column;object-fit: contain ;overflow: hidden; width: 100%;"
   i
   >
-  <img style="filter: blur(3px);;position:absolute;z-index: -1;top: 60vh; max-width: 209%;" src="aj.png" alt=""  >
+  <img style="filter: blur(3px);;position:fixed;z-index: -1; max-width: 100%;" src="aj.png" alt=""  >
   <!-- Navbar --></div>
   <header class="text-gray-400 bg-gray-0 body-font">
     <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
@@ -54,9 +67,9 @@
 
       </a>
       <div>
-        <h1 class="text-gradient"
-          style="align-items:center ; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; font-size:xxx-large ; font-weight: bold;">
-          RMAGEDDON 2022</h1>
+        <h1 class="text-gradient" id="heading"
+          style="align-items:center ;  font-size:xxx-large ;">
+          <span style="color: white;">RMAGEDDON</span> <span style="color: black; background-image: linear-gradient(90deg, #d20115,#7c0a15, #54060c); padding: 5px;">2022</span></h1>
       </div>
       <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
       </a>
@@ -69,10 +82,10 @@
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-wrap -m-12">
         <div class="p-12 md:w-1/2 flex flex-col items-start">
-          <span
-            class="inline-block py-1 px-2 rounded bg-gray-800 text-gray-400 text-opacity-75 text-xs font-medium tracking-widest">content</span>
-          <h2 class="sm:text-3xl text-2xl title-font font-medium text-white mt-4 mb-4 " style="font-size:x-large;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">WHAT IS RMAGEDDON ?</h2>
-          <p class="leading-relaxed mb-8" style="font-family: 'Courier New', Courier, monospace;font-size: larger;color: rgb(53, 248, 255);">Rmageddon is a intra college robotics event organised by first year team. Here
+          <!-- <span
+            class="inline-block py-1 px-2 rounded bg-gray-800 text-gray-400 text-opacity-75 text-xs font-medium tracking-widest"></span> -->
+          <h2 class="sm:text-3xl text-2xl title-font font-medium text-white mt-4 mb-4 " style="font-size:x-large;font-weight:500;color:#CC0215;">WHAT IS RMAGEDDON ?</h2>
+          <p class="leading-relaxed mb-8" style="font-family: 'Courier New', Courier, monospace;font-size: larger;">Rmageddon is a intra college robotics event organised by first year team. Here
             we organise workshops and conduct various compititions.</p>
           <div
             class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-800 border-opacity-75 mt-auto w-full">
@@ -89,11 +102,11 @@
           </a>
         </div>
         <div class="p-12 md:w-1/2 flex flex-col items-start">
-          <span
-          class="inline-block py-1 px-2 rounded bg-gray-800 text-gray-400 text-opacity-75 text-xs font-medium tracking-widest">content</span>
-          <h2 class="sm:text-3xl text-2xl title-font font-medium text-white mt-4 mb-4"
-            style="font-size:x-large;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">RMAGEDDON 2022</h2>
-          <p class="leading-relaxed mb-8" style="font-family: 'Courier New', Courier, monospace;font-size: larger;color: rgb(53, 248, 255);">Lets have a look on RMAGEDDON 2020.
+          <!-- <span -->
+          <!-- class="inline-block py-1 px-2 rounded bg-gray-800 text-gray-400 text-opacity-75 text-xs font-medium tracking-widest">content</span> --> 
+          <h2 style="color: #CC0215;" class="sm:text-3xl text-2xl title-font font-medium text-white mt-4 mb-4"
+            style="font-size:x-large;">RMAGEDDON 2022</h2>
+          <p class="leading-relaxed mb-8" style="font-weight:normal;font-size:normal">Lets have a look on RMAGEDDON 2020.
             Here we organised three events namely Sketch-Bot, Rob N Rob, Fast N Follower & conducted various technical
             workshops. More than 275 participants participated in the events and 400+ students attended</p>
           <div
