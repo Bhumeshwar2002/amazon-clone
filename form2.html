@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style type="text/css">
+        label{
+            width:20%;
+            display:inline-block;
+            padding:5px 15px;
+            box-sizing: border-box;
+            margin-bottom:9px;
+            border-radius:100px;
+            outline: none;
+            font-size: 19px;
+            letter-spacing: 0.5px;
+            color:black;
+            text-transform:inherit;
+            font-weight: bold;
+            border:none;
+            background: rgb(248, 248, 250);
+            
+
+
+        }
+        #h2{
+            font-size: 300px;
+        } 
+        
+        #form{
+            border-radius :10px;
+            width:100%;
+            padding:10px;
+        }
+        #submit{
+            width:15%;
+            box-sizing:border-box;
+            letter-spacing:0.5px;
+            font-weight: bold;
+            text-transform: inherit;
+            font-size: 19px;
+            margin-bottom: 9px;
+            outline
+        }
+
+        input[type=submit]{
+            background:#b7ff00;
+            cursor: pointer;
+        }
+        #bg img{
+            position: absolute;
+            top:0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            min-width: 50%;
+            min-height: 50%;
+        }
+        #bg{
+            position: fixed;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+        }
+       
+        
+       
+    </style>
+    
+</head>
+<body>
+    
+    <div id="bg">
+        <img src="ab.jpg" alt="">
+    <br><br><br><br>
+    <h1 style="text-align:center;">Registration form</h1><br><br>
+        <form style="text-align:center;">
+        <label style="text-align:center;">Team Name:</label><br>
+         <input placeholder = "Team name"type="text" name="Team name" id="Team name"> <br><br>
+         <label>Team Leader Name:</label><br>
+          <input placeholder ="Team leader name"type="text" name="team leader name" id="team leader name"><br><br>
+          <label>Reg. no. of Leader:</label><br>
+          <input placeholder ="Reg. no. of Leader" type="text and number" name="reg no." id="reg no."><br><br>
+          <label>Team member 1:</label><br>
+          <input placeholder = "Team member 1" type="text" name="team member 1" id="team mebmer 1"><br><br>
+          <label>Team member 2:</label><br>
+          <input placeholder = "Team member 2" type="text" name="team member 2" id ="team member 2"><br><br>
+          <label>Team member 3:</label><br>
+          <input placeholder = "Team member 3" type="text" name="team member 3" id="team member 3"> <br><br>
+          <input type="submit" name="submit" id="submit">
+          
+          
+    </form>
+ </div>
+</body>
+</html>
