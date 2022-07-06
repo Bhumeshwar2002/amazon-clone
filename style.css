@@ -362,6 +362,7 @@ left: 0;
 width: 100%;
 padding: 20px;
 display: flex;
+margin-top: 55px;
 flex-direction: column;
 align-items: center;
 background:linear-gradient(to bottom,transparent,#eaeded 30%) ;
@@ -382,11 +383,14 @@ background:linear-gradient(to bottom,transparent,#eaeded 30%) ;
     box-sizing: border-box;
     margin: 20px 0;
     justify-content: space-around;
+    margin-bottom: -10px;
 }
 .product-comp .box{
     width: 355px;
     height: 365px;
     background-color: white;
+    margin-top: 27px;
+    height: 405px;
 }
 .box h3{
      margin-top:  20px;
@@ -411,6 +415,8 @@ background:linear-gradient(to bottom,transparent,#eaeded 30%) ;
     cursor: pointer;
     margin-left: -16px;
     margin-right: 0;
+    /* margin-top: 6px; */
+    margin-top: 20px;
 }
 
 .box-a div{
@@ -425,6 +431,7 @@ background:linear-gradient(to bottom,transparent,#eaeded 30%) ;
     height: 110px;
     width: 152px;
     margin-left: 15px;
+    margin-top: 17px;
 }
 .box .d img{
     height: 126px;
@@ -441,6 +448,7 @@ background:linear-gradient(to bottom,transparent,#eaeded 30%) ;
     background-color: white;
     height: 115px;
     width: 315px;
+    margin-top: 27px;
 }
 .best h3{
    font-size: 21px;
@@ -460,48 +468,99 @@ background:linear-gradient(to bottom,transparent,#eaeded 30%) ;
     font-size: 12px;
 }
 .box.box-c img{
-    /* margin: 0px 20px; */
     width: 305px;
     margin-left: 25px;
     cursor: pointer;
-    height: 257px;
+    height: 271px;
+    margin-top: 17px;
 }
 .corner img{
     padding: 20px;
-    height: 265px;
+    height: 301px;
+
 }
 /* section 2*/
 .sec-2{
     width: 100%;
     height: 315px;
-    padding: 25px;
+    padding: 13px;
     padding-top: 0;
-    padding-bottom: 25px;
+    padding-bottom: -15px;
+    margin-top: 45px
 }
-.slide-sec h3{
-    font-size: 20px;
+.slide-sec-1, .slide-sec-2, .slide-sec-3 h3{
+    font-size: 22px;
     padding-bottom: 5px;
 }
-.slide-sec{
+.slide-sec-1{
+    width: 100%;
+    height: 100%;
+    padding: 16px 20px 10px 20px;
+    overflow-x: hidden;
+    background-color: white;
+    position: relative;
+    margin-top: 95px;
+}
+.slide-sec-2 h3{
+    margin-top: -8px;
+    margin-bottom: 45px;
+}
+.slide-sec-1 h3{
+    margin-top: -8px;
+    margin-bottom: 40px;   
+}
+.slide-sec-2{
+    width: 100%;
+    height: 324px;
+    padding: 20px 20px 10px 20px;
+    overflow-x: hidden;
+    background-color: white;
+    position: relative;
+    margin-top: -39px;
+}
+.slide-sec-3{
     width: 100%;
     height: 100%;
     padding: 20px 20px 10px 20px;
     overflow-x: hidden;
     background-color: white;
     position: relative;
+    margin-top: -5px;
 }
-.product-slide{
+.product-slide-3{
     display: flex;
     margin-top: 5px;
     overflow-x: scroll;
     scroll-behavior: smooth;
 }
-.product-slide::-webkit-scrollbar{
+.product-slide-1{
+    display: flex;
+    margin-top: 18px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+.product-slide-2{
+    display: flex;
+    margin-top: 5px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+.product-slide-3::-webkit-scrollbar{
     background-color: transparent;
     height: 7px;
     cursor: pointer;
 }
-.product-slide::-webkit-scrollbar-thumb{
+.product-slide-1::-webkit-scrollbar{
+    background-color: transparent;
+    height: 7px;
+    cursor: pointer;
+}
+.product-slide-2::-webkit-scrollbar{
+    background-color: transparent;
+    height: 7px;
+    cursor: pointer;
+}
+.product-slide-1,.product-slide-3,.product-slide-2::-webkit-scrollbar-thumb{
     border-radius: 10px;
     cursor: pointer;
 }
@@ -510,6 +569,22 @@ background:linear-gradient(to bottom,transparent,#eaeded 30%) ;
     margin-right: 10px;
     margin-bottom: 15px;
     cursor: pointer;
+}
+.product-slide-1 li{
+    list-style: none;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 6px;
+    cursor: pointer;
+    height: 210px;
+}
+.product-slide-3 li{
+    list-style: none;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    cursor: pointer;
+    height: 100%;
 }
 .l-btn,
 .r-btn{
@@ -547,4 +622,45 @@ background:linear-gradient(to bottom,transparent,#eaeded 30%) ;
     top: 35%;
     left: 13%;
     right: 13%;
+}
+/* section 4 */
+.sec-3{
+    width: 100%;
+    height: 150px;
+    /* padding: 25px; */
+    padding-top: 0;
+    padding-bottom: 25px;
+}
+.slide-sec p{
+    text-align: center;
+}
+.slide-sec button {
+    cursor: pointer;
+    height: 32px;
+    position: relative;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #f0c14b;
+    margin-left: 43%;
+    margin-top: 11px;
+    width: 15%;
+    border-radius: 8px;
+    font-size: 14px;
+    
+}
+.slide-sec .text {
+    font-size: 13px;
+    margin-top: 5px;
+}
+/* section 5 */
+.sec-4{
+    width: 100%;
+    height: 80px;
+    padding-top: 0;
+    padding-bottom: 0px;
+}
+.sec-4 .bottom{
+background-color: #6098dd;
+height: 100%;
 }
